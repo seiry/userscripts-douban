@@ -78,6 +78,7 @@ function update_bt_site(title, year, douban_ID, IMDb_ID, title_cn) {
         'EXT.TO': 'https://ext.to/search/?q=' + title,
         哔嘀影视: 'https://www.bdys10.com/search/' + title_cn,
         动漫花园: 'https://dmhy.org/topics/list?keyword=' + title,
+        therarbg: `https://therarbg.com/imdb-detail/${IMDb_ID}`,
     };
 
     if (is_series(title)) {
